@@ -1,0 +1,39 @@
+{
+  "configurations" : [
+    {
+      "id" : "864CD1B4-41D8-4380-9C37-8D59CCF04488",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:OneProjectUsingSPM.xcodeproj",
+        "identifier" : "58750C112A7115EC001F8D0D",
+        "name" : "OneProjectUsingSPMTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:MyUILibrary",
+        "identifier" : "MyUILibraryTests",
+        "name" : "MyUILibraryTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:ThirdPackage",
+        "identifier" : "ThirdPackageTests",
+        "name" : "ThirdPackageTests"
+      }
+    }
+  ],
+  "version" : 1
+}

@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "firstpackage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/rlochar/FirstPackage.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "0f12f4649662d2c1d850099d7eaa5b7623e000a3"
+      }
+    },
+    {
+      "identity" : "secondpackage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/rlochar/SecondPackage.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "463824d80c692ffce629d183a493e8ca764ef2cd"
+      }
+    }
+  ],
+  "version" : 2
+}
